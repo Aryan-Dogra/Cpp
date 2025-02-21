@@ -1,4 +1,4 @@
-// Check Weather its a leep year or not
+// Check Weather its a leap year or not
 
 #include <iostream>
 using namespace std;
