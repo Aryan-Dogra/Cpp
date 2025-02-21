@@ -22,3 +22,32 @@ int main(){
   }
 return 0;
 }
+
+//Without any library
+
+// #include <iostream>
+// using namespace std;
+
+// int main(){
+//     int num, reversedNum = 0, remainder, originalNum;
+
+//     cout << "Enter a number: ";
+//     cin >> num;
+
+//     originalNum = num;
+//Reverse a Number 
+//     while (num != 0){
+//         remainder = num % 10; 
+//         reversedNum = reversedNum * 10 + remainder;
+//         num /= 10;
+//     }
+
+//     if (originalNum == reversedNum){
+//         cout << originalNum << " is a Palindrome number." << endl;
+//     }
+
+//     else {
+//         cout << originalNum << " is NOT a palindrome number." << endl;
+//     }
+//     return 0;
+// }
